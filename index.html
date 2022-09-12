@@ -1,10 +1,118 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: Assignment
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Assignment</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+    <!-- <style>
+      * {
+        outline: 0.3px solid lightgray;
+      }
+    </style> -->
+  </head>
 
+  <body>
+    <div class="container-fluid">
+      <div class="row fixed">
+        <nav
+          class="nav col-3 flex-column justify-content-between bg-light vh-100"
+        >
+          <h1 class="mx-8 my-8">
+            <a href="#"><img src="./assets/images/logo-ANSWER.svg" alt="" /></a>
+          </h1>
+          <ul class="nav flex-column ps-8">
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex align-items-center"
+                aria-current="page"
+                href="#"
+                ><span class="material-symbols-outlined text-xl text-dark me-4">
+                  analytics
+                </span>
+                <p class="display-6 fw-bolder mb-0 text-dark">Dashboard</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#"
+                ><span class="material-symbols-outlined text-xl text-dark me-4">
+                  forum
+                </span>
+                <p class="display-6 fw-bolder mb-0 text-dark">Question</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="./index.html"
+                ><span class="material-symbols-outlined text-xl text-dark me-4">
+                  assignment
+                </span>
+                <p class="display-6 fw-bolder mb-0 text-dark">Assignment</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex align-items-center"
+                aria-current="page"
+                href="#"
+                ><span class="material-symbols-outlined text-xl text-dark me-4">
+                  video_library
+                </span>
+                <p class="display-6 fw-bolder mb-0 text-dark">Course</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex align-items-center"
+                aria-current="page"
+                href="./admin.html"
+              >
+                <span class="material-symbols-outlined text-xl text-dark me-4">
+                  group
+                </span>
+                <p class="display-6 fw-bolder mb-0 text-dark">Admin</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex align-items-center"
+                aria-current="page"
+                href="#"
+              >
+                <span class="material-symbols-outlined text-xl text-dark me-4">
+                  settings
+                </span>
+                <p class="display-6 fw-bolder mb-0 text-dark">Setting</p>
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex ms-8 mb-8 mt-auto">
+            <img
+              src="./assets/images/andychen.jpeg"
+              alt=""
+              class="rounded-circle me-4"
+              style="width: 40px; height: 40px; object-fit: cover"
+            />
+            <div>
+              <p class="mb-0" style="line-height: 24px">Andy Chen</p>
+              <p
+                class="mb-0 text-secondary"
+                style="font-size: 14px; line-height: 24px"
+              >
+                andy0401@mail.com
+              </p>
+            </div>
+          </div>
+        </nav>
+        <main class="col-9">
 <div class="ms-8">
   <div class="d-flex justify-content-between align-items-center py-8">
     <div class="d-flex align-items-center">
@@ -171,3 +279,10 @@ current: Assignment
     </div>
   </div>
 </div>
+</main>
+      </div>
+    </div>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
